@@ -1,0 +1,20 @@
+{
+  "name": "OddsChecker Book Totals",
+  "version": "1.0.0",
+  "description": "A simple tool to display the total book for betting markets on oddschecker.com",
+  "manifest_version": 3,
+  "author": "Danny Buonocore",
+  "permissions": [""],
+  "host_permissions": [""],
+  "action":{
+    "default_popup": "index.html",
+    "default_title": "OddsChecker Book Totals"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.oddschecker.com/*"],
+      "run_at": "document_idle",
+      "js": ["script.js"]
+    }
+  ]
+}
