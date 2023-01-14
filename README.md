@@ -11,3 +11,5 @@ A Chrome extension to display book totals for betting markets.
 6. Select the folder containing the files you just downloaded
 
 That's it!  Now just turn the extension on like you would any other to begin using it.  Your browser will now automatically show totals for markets on `oddschecker.com`.
+
+![image](https://user-images.githubusercontent.com/7944071/212502159-af2b1df9-81d8-489a-8314-a0a1a5818115.png)
